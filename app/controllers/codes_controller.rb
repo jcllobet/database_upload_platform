@@ -5,7 +5,7 @@ class CodesController < ApplicationController
   end
 
   def show
-
+    @code = Code.find(params[:id])
   end
 
   def new

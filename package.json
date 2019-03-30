@@ -1,5 +1,7 @@
 {
   "name": "database_upload_platform",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "bootstrap": "^4.3.1"
+  }
 }

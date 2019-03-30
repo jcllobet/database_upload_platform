@@ -1,2 +1,15 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<%= render partial: "shared/navbar.html.erb"  %>
+
+<div id="main" class="is-loading">
+  <h1>
+    ASL Tagging, one video at a time
+  </h1>
+
+  <div class="title-buttons-container">
+    <a href="#" class="btn-treehouse">Register</a>
+    <a href="#" class="btn-treehouse">Login</a>
+  </div>
+
+</div>
+
+<%= javascript_pack_tag("home") %>
